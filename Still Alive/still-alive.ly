@@ -4,6 +4,7 @@
   title = "Portal - Still Alive"
   composer = "Ellen McLain"
   date = "2007"
+  tagline = ""
 }
 
 rightHand = \relative c''' {
@@ -11,6 +12,7 @@ rightHand = \relative c''' {
   \key d \major
   \numericTimeSignature
   \time 4/4
+  \tempo 4 = 120
 
   \partial 2 { g8 fis e e }
   | fis1
@@ -105,7 +107,7 @@ rightHand = \relative c''' {
   | b a fis d4 e8 fis fis~
   | fis2 r8 g a a~
   | a2 r8 g fis fis~
-  | fis1
+  | fis2 s
 }
 
 leftHand = \relative {
@@ -207,7 +209,7 @@ leftHand = \relative {
   | a d fis d b d fis d
   | a d fis d b d fis d
   | a d fis d b d fis4
-  | r1
+  | r2 s
 }
 
 text = \lyricmode {
@@ -305,13 +307,6 @@ text = \lyricmode {
   STILL A -- LIVE __
 
   (still a -- live) __
-}
-
-\paper {
-  top-margin = 0.5\in
-  right-margin = 0.5\in
-  bottom-margin = 0.5\in
-  left-margin = 0.5\in
 }
 
 \score {
