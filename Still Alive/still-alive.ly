@@ -300,7 +300,7 @@ text = \lyricmode {
   While you're dy -- ing I'll be
   still a -- live. __
 
-  % FINAL THOUGH PS:
+  % FINAL THOUGHT PS:
   And when you're dead I will be
   still a -- live. __
 
